@@ -1,18 +1,14 @@
 <template>
 	<div class="intro-header p2">
 		<div>
-		<div class="et-display-4 et-white-text"><center>&#9780;</center></div>
+		<div class="mx-auto"><img src="./assets/fb-homepage-flag.png"></div>
 		
-		<div class="et-display-3">
-					ExoTypography
+		<div class="et-display-3 et-text-center">
+				ExoTypography
 		</div> 
-		<div>
-<router-link to="/about">About</router-link>
-<router-link to="/earth">Earth</router-link>
-<router-link to="/fire">Fire</router-link>
-<router-link to="/water">Water</router-link>
-<router-link to="/air">Air</router-link>
-<router-link to="/aether">Aether</router-link>
+		<div class="et-text-center">
+<router-link to="/about" class="et-button-text">About</router-link>
+<router-link to="/elements" class="et-button-text">Elements</router-link>
 </div>
 		</div>	
 		
@@ -45,8 +41,8 @@ display: flex;
 
   @element '.intro-header' \a\n\d (min-width: 960px) {
   .intro-header {
-    background: bright-black;
-    color: off-white;
+    background: white;
+    
   }
 }
 

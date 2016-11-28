@@ -4,10 +4,13 @@ Vue.use(VueRouter)
 
 
 const route = new VueRouter({
+
 	routes:[{
     path:'/index',component:require('../views/index.vue')
   },{
     path:'/about',component:require('../views/about.vue')
+  },{
+    path:'/elements',component:require('../views/elements.vue')
   },{
     path:'/earth',component:require('../views/earth.vue')
   },{
